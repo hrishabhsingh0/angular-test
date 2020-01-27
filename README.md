@@ -1,3 +1,16 @@
+ng new angular-demo
+
+git init
+git commit -m "first commit
+git remote add origin https://github.com/hrishabhsingh0/angular-test.git
+push -u origin master
+git push -u origin master
+
+npm install -g angular-cli-ghpages
+ng build --prod --base-href https://hrishabhsingh0.github.io/angular-test/
+ngh --dir dist/angulardemo
+
+
 # Angulardemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
